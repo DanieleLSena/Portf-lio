@@ -401,6 +401,36 @@ footer {
             right: -20px;
             width: 100%;
         }
+
+        .img-projetos{
+            margin-top: 45px;
+        }
+        
+        .img-projetos img{
+            width: 120px;
+        }
+        
+        .chega-mais {
+            padding: 1px 10px;
+            font-size: 15px;
+        }
+       
+        .curiosidades-container{
+            flex-direction: column;
+        }
+        
+        .img-curiosidades {
+            width: 60vw;
+            margin-top: 50px;
+        }
+        
+        .img-curiosidades img{
+            max-width: 100px;
+        } 
+        
+        .contato-dados label {
+            font-size: 15px;
+        }
         
 }
 
