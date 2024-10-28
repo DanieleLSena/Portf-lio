@@ -283,3 +283,124 @@ footer {
         transform: translateX(-50%);
     }
 }
+
+@media (min-width: 481px) and (max-width: 768px){
+   
+    .navbar {
+    gap: 15px;
+    }
+
+    .navbar a {
+        font-size: 15px;
+    }
+
+    .conteudo-p1 {
+        font-size: 15px;
+        padding-top: 120px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+    
+    p{
+        font-size: 15px;
+    }
+    
+    .saiba-mais {
+        padding: 1px 10px;
+        margin: 20px;
+    }
+    
+    .foto-principal {    
+        width: 200px;
+        height: 200px;
+    }  
+    
+    .foto-daniele { 
+        width: 100%;
+    }
+    
+    .img-projetos{
+        margin-top: 45px;
+    }
+    
+    .img-projetos img{
+        width: 120px;
+    }
+    
+    .chega-mais {
+        padding: 1px 10px;
+        font-size: 15px;
+    }
+   
+    .curiosidades-container{
+        flex-direction: column;
+    }
+    
+    .img-curiosidades {
+        width: 60vw;
+        margin-top: 50px;
+    }
+    
+    .img-curiosidades img{
+        max-width: 100px;
+    } 
+    
+    .contato-dados label {
+        font-size: 15px;
+    }
+    
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .navbar {
+        gap: 10px;
+        }
+    
+        .navbar a {
+            font-size: 15px;
+        }
+    
+        .responsivo-tela{
+            display: none;
+        }
+        
+        h2 {
+            font-size: 20px;
+        }
+        
+        p{
+            font-size: 15px;
+        }
+        
+        .saiba-mais {
+            padding: 1px 10px;
+            margin: 20px;
+            font-size: 15px;
+        }
+        
+        .foto-principal {
+            width: 120px;
+            height: 120px;
+        }
+        
+        .redes-sociais {
+            top: 5px;
+            left: 5px;
+            gap: 3px;
+        }
+        
+        .redes-sociais img {
+           width: 25px;
+           height: 25px;            
+        }
+        
+        .foto-daniele {
+            bottom: -45px;
+            right: -20px;
+            width: 100%;
+        }
+        
+}
+
